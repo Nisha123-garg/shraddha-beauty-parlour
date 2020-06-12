@@ -1,0 +1,610 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*section first starts*/
+
+/*Demo styles*/
+#first
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top right;
+    background-attachment: fixed;
+    background-image: url('images/back.jpg');
+    
+}
+.animate
+{
+    animation: example 20s ease-in infinite;
+    width: 100%;
+    background-size: cover;
+    background-position:top right;
+}
+.arow
+{
+    border: 2px solid pink;
+}
+#first2
+{
+    background-image: url('images/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.overlay_1
+{
+    background-color: rgba(0,0,0,.5);
+}
+nav
+{
+    background-color: black !important;
+}
+.main-heading a 
+{
+    font-weight: bold;
+    color: #ffcb0f !important;
+    font-size: 25px;
+}
+.menu-list li
+{
+    margin: 15px;
+}
+.menu-list li a
+{
+    color:white !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.menu-list li a:hover
+{
+    background-color: #484848;
+    border-bottom: 2px solid deeppink ;
+    color: white !important;
+}
+
+/*first row ends*/
+
+.jumbotron-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 120px;
+    margin-top: 2rem;
+    background-color: transparent;
+    border-radius: .3rem;
+}
+.jumbotron-1 h1 {
+    font-size: 40px;
+    font-family: georgia;
+    color: white;    
+    text-shadow: 4px 5px 3px #ff0000, 3px 4px 5px #0000ff;
+}
+.jumbotron-1 p{
+    padding-top: 30px;
+}
+.button-design
+ {
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 60px;
+    text-shadow: 3px 2px purple, 2px 4px teal;
+}
+.button-design:hover
+{
+background-color: teal;
+} 
+.jumbotron-1 span
+{
+color: teal;
+}
+/*second row ends*/
+
+/*second section*/
+#second
+{
+    padding: 50px 0;
+}
+.about_us
+{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.about_us span
+{
+    color: darkred;
+}
+.margin_top_img
+{
+    margin-top: 50px;
+
+}
+.img-thumbnail
+{
+    border: none;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+/*fourth row ends*/
+
+.button
+{
+    padding: 30px 0 0 0;
+}
+/*fifth row ends*/
+
+/*section third start*/
+#third
+{
+    padding: auto;
+}
+.img-fluid {
+    width: 800px;
+}
+.img-fluid
+{
+    background: white;
+    border-radius: 1rem;
+    transition: 0.2s;
+}
+.img-fluid:hover
+{
+   transform: translateY(-4rem);
+}
+.img-fluid:hover
+{
+    transform: translateX(-4rem);
+}
+.img_design img:hover
+{
+ border-bottom: 3px solid orangered;
+ height: 200px;
+}    
+.img_design h5:hover{
+    color: black;
+    font-weight: bold;
+}
+.swiper-container 
+{
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      transition: 0.2s;
+}
+.swiper-slide
+{
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 420px;
+      background-color: brown;
+      
+}
+.swiper-slide:hover
+{
+    transform: translateY(-4rem);
+}
+.swiper-slide .imgbx
+{
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    padding: 3px;
+}
+.swiper-slide .imgbx img
+{ 
+    width: 100%;
+    height: 300px;
+} 
+.swiper-slide .caption
+{
+    padding-top: 0px;
+}
+.caption h5
+{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px black;
+}
+.caption h5 span
+{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-shadow: none;    
+}
+
+
+/*section fourth start*/
+#forth
+{
+    background-image: url('images/beauty.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-attachment:fixed;
+    margin: 80px 0 0 0;
+}
+.overlay_2
+{
+    background-color: rgba(0, 0,0,.8);
+    padding: 50px 0;
+}
+.forth_design
+{
+text-align: center;
+width: 80%;
+margin: 0 auto;
+color: white;
+margin-top: 20px;
+}
+.forth_design span
+{
+    color: darkred;
+}
+.input_design
+{
+    /* top, right, bottom, left*/
+    margin-top: 30px;
+    padding: 20px 0 100px 20px; 
+}
+.form_button
+{
+    margin-top: 25px;
+    width: 150px;
+    border: 2px solid white;
+}
+.form_button:hover{
+    color: crimson;
+    background-color: white;
+}
+.margin_top_fourth
+{
+    margin-top: 40px;
+}
+
+/*fifth section start*/
+#fifth
+{
+padding: 15px 0 25px;
+background-color:#3b434c;
+}
+#fifth p
+{
+    color: #fff;
+    font-size: 15px;
+}
+
+/*services section starts*/
+
+#first1
+{
+    opacity: 1;
+    
+    
+}
+
+.contact
+{
+    font-size: 50px;
+    font-family:  georgia, cambria;
+    font-weight: 500; 
+}
+.jumbotron-12
+{
+    margin-bottom: 30px;   
+}
+.button-designs
+{
+    margin-bottom: 70px;
+}
+.font 
+{
+    font-size: 40px; 
+    font-family: cursive;
+}
+.line_spacing
+{
+    line-height: 1.8;
+    word-spacing: 8px;
+
+}
+.line_spacing p{
+    padding-inline-start: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+/*///////////media queryies///////////*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    
+     .jumbotron-1 h1
+      {
+         font-size: 27px;      
+      }
+      .text-muted
+      {
+          font-size: 13px;
+      }
+     .button-design
+      { 
+        font-size: 15px;  
+        padding: 15px 32px;  
+      }
+     .about_us
+      {        
+        font-size: 13px;   
+        color: peru;     
+      }
+      .contact
+      {
+        font-size: 50px; 
+      }
+      .services_img
+      {
+         width: 100%;
+      }
+      .figure-img
+      {
+          width: 60%;
+      }
+      .img_design h5
+      {
+          font-size:14px;
+      }
+      .forth_design h2
+      {
+          font-size: 22px;
+      }
+      .img_design img:hover
+      {
+        border-bottom: 3px solid orangered;
+        height: 250px;
+      }   
+      .contact 
+      {
+          font-size: 33px;
+          font-weight: 405; 
+      } 
+      .swiper-slide
+      {
+          width: 275px;
+          height: 365px;         
+      } 
+      .swiper-slide .imgbx 
+      { 
+          width: 100%;
+          height: 285px;
+          margin-bottom: 9px;    
+       }  
+      .caption h5
+      {
+          font-size: 12px;        
+      }
+      .caption h5 span 
+      {
+          font-size: 10px;
+      }
+      .contact_center
+      {
+         text-align: center;
+      } 
+     .font {
+         font-size: 28px;
+         padding-left: 30px;
+     }
+     .line_spacing
+     {
+         text-align: center;
+     }
+     .line_spacing p {
+         font-size: 12px;
+         text-align: center;
+     } 
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+     .jumbotron-1 h1
+      {
+         font-size: 28px;      
+      }
+      .text-muted
+      {
+          font-size: 14px;
+      }
+     .button-design
+      { 
+        font-size: 15px;    
+      }
+     .about_us
+      {        
+        font-size: 14px;   
+        color: teal;     
+      }
+      .services_img
+      {
+         width: 100%;
+      }
+      .figure-img
+      {
+          width: 70%;
+      }
+      .img_design h5
+      {
+          font-size:15px;
+      }
+      .forth_design h2
+      {
+          font-size: 21px;
+      }
+      .img_design img:hover
+      {
+        border-bottom: 3px solid orangered;
+        height: 260px;
+      } 
+      .contact 
+      {
+          font-size: 35px;
+          font-weight: 410; 
+      } 
+      .swiper-slide
+      {
+          width: 280px;
+          height: 370px;         
+      } 
+      .swiper-slide .imgbx 
+      { 
+          width: 100%;
+          height: 290px;
+          margin-bottom: 10px;    
+       }  
+      .caption h5
+      {
+          font-size: 13px;        
+      }
+      .caption h5 span 
+      {
+          font-size: 11px;
+      }
+      .contact_center
+     {
+        text-align: center;
+     } 
+    .font {
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    .line_spacing
+    {
+        text-align: center;
+    }
+    .line_spacing p {
+        font-size: 13px;
+        text-align: center;
+    }
+       
+              
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+     
+      .jumbotron-1 h1
+      {
+         font-size: 32px;      
+      }
+     .button-design
+      { 
+        font-size: 15px;    
+      }
+     .about_us
+      {        
+        font-size: 15px;   
+        color: teal;     
+      }
+      .contact
+    {
+        font-size: 40px;
+        font-weight: 420; 
+    } 
+    .swiper-container 
+    {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .swiper-slide
+    {
+        width: 290px;
+        height: 380px;         
+    } 
+    .swiper-slide .imgbx 
+    { 
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;    
+     }  
+    .caption h5
+    {
+        font-size: 14px;        
+    }
+    .caption h5 span 
+    {
+        font-size: 12px;
+    } 
+    .contact_center
+    {
+        text-align: center;
+    }
+    .font {
+        font-size: 34px;
+        font-family: cursive;
+    }
+    .line_spacing p {
+        font-size: 15px;
+    }
+    
+     
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+     .jumbotron-1 h1 {
+        font-size: 37px;        
+    }    
+    .figure-img
+    {
+        width: 80%;
+    }
+    .img_design img:hover
+    {
+        border-bottom: 3px solid orangered;
+        height: 300px;
+    } 
+    .contact
+    {
+        font-size: 45px;
+        font-weight: 450; 
+    } 
+    .swiper-slide
+    {
+        width: 300px;
+        height: 400px;         
+    }  
+    .caption h5
+    {
+        font-size: 17px;        
+    }  
+    .font {
+        font-size: 37px;
+        font-family: cursive;
+    }
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+   
+}
